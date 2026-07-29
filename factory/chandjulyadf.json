@@ -1,0 +1,15 @@
+{
+	"name": "chandjulyadf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "34d66afb-8299-4f29-917e-a45a9688d83d",
+		"tenantId": "6f0618ee-8d49-46b4-99db-b6531f4069dc"
+	}
+}
