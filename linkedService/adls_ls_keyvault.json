@@ -1,0 +1,18 @@
+{
+	"name": "adls_ls_keyvault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://chandjulystorage.dfs.core.windows.net/",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "chand6keyvault"
+			}
+		}
+	}
+}
