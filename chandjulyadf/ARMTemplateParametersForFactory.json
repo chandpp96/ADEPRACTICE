@@ -14,6 +14,12 @@
 		"ADLS_LS_properties_typeProperties_url": {
 			"value": "https://chandjulystorage.dfs.core.windows.net/"
 		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://mytestkeyvalutnew.vault.azure.net/"
+		},
+		"RestServerLS_properties_typeProperties_url": {
+			"value": "https://jsonplaceholder.typicode.com/"
+		},
 		"SQL DB LS_properties_typeProperties_server": {
 			"value": "chand6db.database.windows.net"
 		},
@@ -22,6 +28,9 @@
 		},
 		"SQL DB LS_properties_typeProperties_userName": {
 			"value": "chand6db"
+		},
+		"adls_ls_keyvault_properties_typeProperties_url": {
+			"value": "https://chandjulystorage.dfs.core.windows.net/"
 		}
 	}
 }
