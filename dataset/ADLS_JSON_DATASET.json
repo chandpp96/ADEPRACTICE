@@ -1,0 +1,19 @@
+{
+	"name": "ADLS_JSON_DATASET",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "users.json",
+				"fileSystem": "nonrelationjsonfile"
+			}
+		},
+		"schema": {}
+	}
+}
